@@ -50,21 +50,28 @@
     </div>
 
     <script>
-        function generateQRCode() {
-            var cccd = document.getElementById("cccd_input").value;
-            if (cccd.trim() === "") {
-                alert("Vui lòng nhập mã căn cước!");
-                return;
-            }
-            var hashedCCCD = CryptoJS.SHA256(cccd).toString();
-            document.getElementById("qrcode").innerHTML = "";
-            new QRCode(document.getElementById("qrcode"), {
-                text: "http://localhost/baitaplon/?controller=tracuu&param=" + hashedCCCD,
-                width: 200,
-                height: 200
-            });
-            document.getElementById("qr-text").textContent = "http://localhost/baitaplon/?controller=tracuu&param=" + CCCD;
+    function generateQRCode() {
+        var cccd = document.getElementById("cccd_input").value;
+        if (cccd.trim() === "") {
+            alert("Vui lòng nhập mã căn cước!");
+            return;
         }
+
+        var hashedCCCD = CryptoJS.SHA256(cccd).toString();
+        document.getElementById("qrcode").innerHTML = "";
+        var url = "http://localhost/ktpm/Baitaplon/?controller=tracuu&param=" + hashedCCCD;
+
+        new QRCode(document.getElementById("qrcode"), {
+            text: url,
+            width: 200,
+            height: 200
+        });
+
+        // Hiện hoặc ẩn dòng văn bản chứa đường link
+        var qrTextElem = document.getElementById("qr-text");
+        qrTextElem.style.display = "block"; // hiện ra
+        qrTextElem.textContent = url; // gán đường link
+    }
     </script>
 </body>
 </html>
