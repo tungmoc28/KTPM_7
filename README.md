@@ -27,12 +27,10 @@ Yêu cầu: 🔧 Yêu cầu chức năng:
 • Văn phòng công chứng: Kiểm tra tính hợp lệ giấy tờ trong giao dịch. 
 • Người dân: Tạo và kiểm tra mã QR giấy tờ của mình một cách đơn giản.
 
-Mô hình hệ thống:
+Phân công công việc: 
+Thu thập và phân tích yêu cầu: Dương Quang Tùng, Trần Hữu Kiên
+Thiết kế hệ thống: Dương Quang Tùng
+Lập trình và triển khai hệ thống: Dương Quang Tùng, Trần Hữu Kiên
+Kiểm thử hệ thống: Dương Quang Tùng
 
-Người dân chỉ có thể truy cập vào trang tra cứu để quét mã và tra cứu thông tin:
 
-Các hành đông của Bộ Tài Nguyên với quyền hạn cao nhất.
-
-Các hành động của người dân khi thực hiện tra cứu:
-
-dữ liệu:
