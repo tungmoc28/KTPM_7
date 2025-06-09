@@ -63,5 +63,8 @@ Kiểm thử hệ thống: Dương Quang Tùng
 
 link demo sản phẩm : https://drive.google.com/file/d/1nhVaHl0khROkwNgpeMjCYyxtLE24cq98/view?usp=sharing.
 
+File báo cáo: https://docs.google.com/document/d/1kw2CFrKF3TkSaR3KJhMe1QQGBG7jVHYj/edit?usp=drive_link&ouid=116263777689166377420&rtpof=true&sd=true
+
+
 
 
