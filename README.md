@@ -1,7 +1,7 @@
 Nhóm 7
 
 Dương Quang Tùng - 21010336 (trường nhóm)
-Trần Hữu Kiên - 23010258
+//Trần Hữu Kiên - 23010258
 Xây dựng úng dụng Tạo và Quản lý mã QR cho giấy tờ đất.
 
 Ứng dụng hướng tới hỗ trợ các mục tiêu sau:
