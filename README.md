@@ -61,7 +61,7 @@ Lập trình và triển khai hệ thống: Dương Quang Tùng, Trần Hữu Ki
 
 Kiểm thử hệ thống: Dương Quang Tùng
 
-link demo sản phẩm : https://drive.google.com/file/d/1nhVaHl0khROkwNgpeMjCYyxtLE24cq98/view?usp=sharing
+link demo sản phẩm : https://drive.google.com/file/d/1nhVaHl0khROkwNgpeMjCYyxtLE24cq98/view?usp=sharing.
 
 
 
